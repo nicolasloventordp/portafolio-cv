@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ********* Custom Properties ********* */
+:root {
+    --first-color: ;
+    --second-color: ;
+    --third-color: ;
+    --white-color: #fff;
+    --black-color: #000;
+    --link-color: #509ee3;
+    --title-color: #333;
+    --text-color: #222;
+    --white-alpha-color: rgba(255,255,255,0.5);
+    --black-alpha-color: rgba(0,0,0,0.5);
+    --font: "Raleway", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ********* Reset ********* */
+html {
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+h1{
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* ********* Components ********* */
+
+/* ********* Utilities ********* */
+.box-shadow-1{
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,0.25);
+}
+.box-shadow-2{
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,0.5);
+}
+.app{
+    width: 100%;
+    height: 100vh;
 }

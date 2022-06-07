@@ -1,8 +1,11 @@
 import './App.css';
+import Header from './views/Header';
 
 function App() {
   return (
-    <h1>Portafolio-CV</h1>
+    <div className="app">
+      <Header />
+    </div>
   );
 }
 
