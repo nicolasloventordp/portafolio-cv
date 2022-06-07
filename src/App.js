@@ -1,12 +1,12 @@
-import './App.css';
 import Header from './views/Header';
+import Home from './views/Home';
+import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="app">
       <Header />
+      <Home />
     </div>
   );
 }
-
-export default App;

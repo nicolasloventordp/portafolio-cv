@@ -1,5 +1,35 @@
-.header{
+.header {
     width: 100%;
     height: 60px;
     position: fixed;
+}
+
+.header-box {
+    width: 100%;
+    height: 100%;
+    background-color: var(--second-color);
+    display: flex;
+    align-items: center;
+}
+
+.header-box-logo {
+    margin-left: 1rem;
+    color: var(--first-color);
+}
+
+.header-box-sections {
+    color: var(--first-color);
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.header-box-sections h3{
+    cursor: pointer;
+}
+
+.header-box-sections h3:hover{
+    cursor: pointer;
+    color: var(--white-color);
 }
