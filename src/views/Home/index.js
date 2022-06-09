@@ -1,11 +1,14 @@
 import { Fragment } from "react";
-import HomeBox from "./components/HomeBox";
+import HomeTitle from "./components/HomeTitle";
+import Button from "../../components/Button";
+
 import "./style.css";
 
 export default function Home() {
     return (
         <div className="home">
-            <HomeBox />
+            <HomeTitle title={"Bienvenid@s a mi sitio"}/>
+            <Button className={"home-button"} text={"Contáctame"}/>
         </div>
     );
 }
