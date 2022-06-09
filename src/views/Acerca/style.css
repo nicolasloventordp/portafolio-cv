@@ -24,8 +24,8 @@
 }
 .acerca-box-photo{
     background: aqua;
-    width: 40%;
-    height: 90%;
+    width: 30%;
+    height: 85%;
     border-radius: 1rem;
 }
 .acerca-box-photo img{
@@ -35,7 +35,11 @@
     border-radius: 1rem;
 }
 .acerca-box-presentation{
-    background: red;
-    width: 40%;
-    height: 90%;
+    padding: 2rem;
+    width: 50%;
+    height: 85%;
+    border-radius: 1rem;
+}
+.btn-cv {
+    margin: auto;
 }
