@@ -18,7 +18,6 @@
 }
 
 .header-box-sections {
-    color: var(--first-color);
     display: flex;
     gap: 1rem;
     position: absolute;
@@ -27,6 +26,14 @@
 
 .header-box-sections h3{
     cursor: pointer;
+}
+.header-box-sections h3 a {
+    color: var(--first-color);
+    transition: all 0.5s ease-out;
+    text-decoration: none;
+}
+.header-box-sections h3 a:hover {
+    color: var(--white-color);
 }
 
 .header-box-sections h3:hover{

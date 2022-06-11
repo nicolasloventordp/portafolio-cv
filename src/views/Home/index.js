@@ -6,7 +6,7 @@ import "./style.css";
 
 export default function Home() {
     return (
-        <div className="home">
+        <div id="home" className="home">
             <HomeTitle title={"Bienvenid@s a mi sitio"}/>
             <Button className={"home-button"} text={"Contáctame"}/>
         </div>

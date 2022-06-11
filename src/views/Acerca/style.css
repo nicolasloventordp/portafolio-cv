@@ -5,6 +5,9 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    background-color: #0000000a;
 }
 .acerca-box {
     width: 80%;

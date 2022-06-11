@@ -26,14 +26,10 @@ html {
 *::before {
     box-sizing: inherit;
 }
+
 body{
     margin: 0px;
     overflow-x: hidden;
-}
-
-a {
-  color: var(--link-color);
-  transition: all 0.5 ease-out;
 }
 
 a:hover {
@@ -64,20 +60,57 @@ h3{
   margin: 0;
   font-size: 1.5rem;
 }
+h4{
+  margin: 0;
+  font-size: 1.3rem;
+}
+
 p {
   font-size: 1.2rem;
 }
 
+span {
+  font-size: 1rem;
+}
+
 /* ********* Components ********* */
 
+.title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+
+.title div {
+  width: 200px;
+  height: 2px;
+  background: var(--first-color);
+}
+
+.title h2 {
+  margin: 10px;
+  color: var(--first-color);
+}
+
 /* ********* Utilities ********* */
+
+.app{
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
 .box-shadow-1{
     box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,0.25);
 }
+
 .box-shadow-2{
     box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,0.5);
 }
-.app{
-    width: 100%;
-    height: 100vh;
-}
+
