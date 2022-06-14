@@ -3,7 +3,7 @@ import { faFacebook, faTwitter, faInstagram, faGithub } from "@fortawesome/free-
 
 export default function ContactoCard({iconName, text, description, socialMedia}) {
     return (
-        <div className="contacto-box-card box-shadow-1">
+        <div className="contacto-card box-shadow-1">
             <FontAwesomeIcon icon={iconName} />
             <h4>{description}</h4>
             { socialMedia ? 
