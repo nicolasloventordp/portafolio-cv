@@ -1,12 +1,10 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-
 import $ from 'jquery'
 export default function HeaderSections({ sections }) {
 
     const openMenu = () => {
-        
         $('#header-menu-mobile').toggleClass("open");
     }
 
