@@ -26,11 +26,11 @@
 }
 .header-sections h3 a {
     color: var(--first-color);
-    transition: all 0.5s ease-out;
+    transition: all 0.2s ease-out;
     text-decoration: none;
 }
 .header-sections h3 a:hover {
-    color: var(--white-color);
+    color: var(--grey-alpha-color);
 }
 .header-sections h3:hover{
     cursor: pointer;
