@@ -1,13 +1,13 @@
 /* ********* Custom Properties ********* */
 :root {
-    --first-color: #4E9F3D;
-    --first-alpha-color: rgba(78,159,61,0.25);
-    --second-color: #1A2231F0;
-    --third-color: ;
+    --first-color: #6441A5;
+    --first-alpha-color: #9B89B3;
     --white-color: #fff;
     --white-alpha-color: rgba(255,255,255,0.5);
     --black-color: #000;
     --black-alpha-color: rgba(0,0,0,0.5);
+    --grey-color: #4B4453;
+    --grey-alpha-color: #B0A8B9;
     --link-color: #509ee3;
     --title-color: #333;
     --text-color: #222;
@@ -112,5 +112,11 @@ span {
 
 .box-shadow-2{
     box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,0.5);
+}
+.d-flex{
+  display: flex;
+}
+.d-none{
+  display: none;
 }
 
