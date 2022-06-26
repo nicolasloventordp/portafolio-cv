@@ -10,9 +10,7 @@ export default function App() {
     <div className="app">
       <Header />
       <Home />
-      <div class="section-separator"></div>
       <Acerca />
-      <div class="section-separator"></div>
       <Contacto />
       <Footer />
     </div>

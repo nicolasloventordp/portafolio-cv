@@ -1,8 +1,7 @@
 .contacto{
     width: 100%;
-    height: 50vh;
-    padding-top: 60px;
     background-color: #0000000a;
+    padding-bottom: 3rem;
 }
 .contacto-box{
     display: flex;

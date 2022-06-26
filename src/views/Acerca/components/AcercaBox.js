@@ -1,14 +1,10 @@
-import AcercaPhoto from "./AcercaPhoto";
-import AcercaPresentation from "./AcercaPresentation";
+import AcercaPhoto from "./AcercaPhoto"
 import Button from "../../../components/Button";
 
 export default function AcercaBox({ className }) {
     return (
         <div className={className}>
-             <div>
-                <AcercaPhoto className={"acerca-photo box-shadow-1"}/>
-                <AcercaPresentation className={"acerca-presentation box-shadow-1"}/>
-            </div>
+            <AcercaPhoto className={"acerca-photo"}/>
             <Button className={"btn-cv"} text={"Descargar mi CV"}/>
         </div>
     );

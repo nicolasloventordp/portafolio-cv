@@ -85,9 +85,7 @@ span {
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  margin: 20px;
-  margin-bottom: 60px;
-  margin-top: 20px;
+  margin-bottom: 2rem;
 }
 
 .title div {
@@ -99,6 +97,20 @@ span {
 .title h2 {
   margin: 10px;
   color: var(--first-color);
+}
+
+.section-separator {
+    width: 90%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.section-separator div{
+  width: 100%;
+  background: var(--first-color);
+  height: 1px;
 }
 
 /* ********* Utilities ********* */
