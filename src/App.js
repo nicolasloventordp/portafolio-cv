@@ -13,7 +13,7 @@ export default function App() {
       <Header />
       <Home />
       <Acerca />
-      <Portafolio />
+      {/*<Portafolio />*/}
       <Contacto />
       <Footer />
     </div>
