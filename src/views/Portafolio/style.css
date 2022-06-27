@@ -1,0 +1,16 @@
+.portafolio {
+    width: 100%;
+    background-color: black;
+}
+.portafolio-box {
+    width: 80%;
+    margin: auto;
+    padding: 3rem;
+}
+.carrousel-inner {
+    display: flex;
+    justify-content: center;
+}
+.carousel-item img {
+    height: 400px;
+}
