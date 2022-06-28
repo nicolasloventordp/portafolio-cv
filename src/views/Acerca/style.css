@@ -29,13 +29,8 @@
     padding: 30px 30px 0px 30px;
     line-height: 40px;
 }
-.btn-cv {
-    margin: auto;
+.acerca-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-/*
-
-
-
-
-*/

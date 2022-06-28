@@ -26,40 +26,24 @@ html {
 *::before {
     box-sizing: inherit;
 }
-
 body{
     margin: 0px;
     overflow-x: hidden;
 }
-
 a:hover {
   opacity: 0.75;
 }
-
 a:active {
   color:white;
 }
-
-button{
-  width: 200px;
-  height: 50px;
-  background-color: var(--first-color);
-  border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  color: var(--white-color);
-}
-
 h1{
     margin: 0;
     font-size: 2rem;
 }
-
 h2{
   margin: 0;
   font-size: 1.5rem;
 }
-
 h3{
   margin: 0;
   font-size: 1.5rem;
@@ -68,17 +52,23 @@ h4{
   margin: 0;
   font-size: 1.3rem;
 }
-
 p {
   font-size: 1.2rem;
 }
-
 span {
   font-size: 1rem;
 }
 
 /* ********* Components ********* */
-
+.button{
+  width: 200px;
+  height: 50px;
+  background-color: var(--first-color);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: var(--white-color);
+}
 .title {
   display: flex;
   align-items: center;

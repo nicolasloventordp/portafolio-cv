@@ -39,3 +39,8 @@
     font-size: 25px;
     cursor: pointer;
 }
+@media (max-width:460px){
+    .contacto-box {
+        flex-direction: column;
+    }
+}
