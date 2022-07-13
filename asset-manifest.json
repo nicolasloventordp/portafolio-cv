@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portafolio-cv/static/css/main.dc840097.css",
+    "main.css": "/portafolio-cv/static/css/main.7395b45b.css",
     "main.js": "/portafolio-cv/static/js/main.926c4bea.js",
     "static/js/787.54c1145e.chunk.js": "/portafolio-cv/static/js/787.54c1145e.chunk.js",
     "static/media/cv-nicolaslovento.pdf": "/portafolio-cv/static/media/cv-nicolaslovento.6b67d729f7a1b30a6fbf.pdf",
@@ -8,12 +8,12 @@
     "static/media/fondo.jpg": "/portafolio-cv/static/media/fondo.61b3a047c596971dfc5d.jpg",
     "index.html": "/portafolio-cv/index.html",
     "static/media/favicon.ico": "/portafolio-cv/static/media/favicon.947f7db2e45f0fd86ee6.ico",
-    "main.dc840097.css.map": "/portafolio-cv/static/css/main.dc840097.css.map",
+    "main.7395b45b.css.map": "/portafolio-cv/static/css/main.7395b45b.css.map",
     "main.926c4bea.js.map": "/portafolio-cv/static/js/main.926c4bea.js.map",
     "787.54c1145e.chunk.js.map": "/portafolio-cv/static/js/787.54c1145e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc840097.css",
+    "static/css/main.7395b45b.css",
     "static/js/main.926c4bea.js"
   ]
 }
