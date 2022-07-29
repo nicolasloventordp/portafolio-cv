@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
+//import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './views/Header'
 import Home from './views/Home'
 import Acerca from './views/Acerca'

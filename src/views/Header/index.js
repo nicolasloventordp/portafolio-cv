@@ -3,7 +3,7 @@ import "./style.css";
 export default function Header() {
     
     return (
-        <div className="header box-shadow-2">
+        <div className="header">
             <HeaderBox />
         </div>
     );

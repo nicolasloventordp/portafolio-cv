@@ -9,7 +9,7 @@ export default function HeaderMenuMobile({ sections }) {
     return (
         <>
             <div className="header-menu-mobile " id="header-menu-mobile">
-                {sections?.map( (section, index) => <h3  key={index}><a href={"#"+section.toLowerCase()} onClick={() => cerrarMenu()}>{section}</a></h3>)}
+                {sections?.map( (section, index) => <h4  key={index}><a href={"#"+section.toLowerCase()} onClick={() => cerrarMenu()}>{section}</a></h4>)}
             </div>
         </>
     );
